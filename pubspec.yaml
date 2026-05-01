@@ -1,0 +1,61 @@
+name: cosmic_messenger
+description: "تطبيق مراسلة يعمل بدون إنترنت عبر الشبكة المحلية"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  
+  # Database
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  
+  # Networking
+  http: ^1.1.0
+  
+  # State Management
+  provider: ^6.1.0
+  
+  # Image Picker
+  image_picker: ^1.0.7
+  
+  # Local Storage
+  shared_preferences: ^2.2.2
+  
+  # UUID
+  uuid: ^4.0.0
+  
+  # Connectivity
+  connectivity_plus: ^5.0.2
+  
+  # Animations
+  animations: ^2.0.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
